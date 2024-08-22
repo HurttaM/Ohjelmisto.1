@@ -7,4 +7,4 @@ leiviskäN = float(leiviskä) * 20 * 32 * 13.3
 sum = float (luotiN) + float (naulaN) + float (leiviskäN)
 kilo = int(sum // 1000)
 gramma = sum - kilo * 1000
-print(f"Paino on {kilo} kiloa ja {gramma:.2f} grammaa.")
+print(f"Paino on nykymittojen mukaan {kilo} kiloa ja {gramma:.2f} grammaa.")
