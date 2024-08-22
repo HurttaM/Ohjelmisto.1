@@ -1,0 +1,10 @@
+import random
+yksi = random.randint(0,9)
+kaksi = random.randint(0,9)
+kolme = random.randint(0,9)
+print(yksi,kaksi,kolme)
+neljä = random.randint(1,6)
+viisi = random.randint(1,6)
+kuusi = random.randint(1,6)
+seitsemän = random.randint(1,6)
+print(neljä, viisi,kuusi, seitsemän)
