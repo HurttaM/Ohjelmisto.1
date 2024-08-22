@@ -1,6 +1,6 @@
-Luku1 = input("milä on luku 1? ")
-Luku2 = input("milä on luku 2? ")
-Luku3 = input("milä on luku 3? ")
+Luku1 = input("mikä on luku 1? ")
+Luku2 = input("mikä on luku 2? ")
+Luku3 = input("mikä on luku 3? ")
 sum = float(Luku1) + float(Luku2) + float(Luku3)
 tulo = float(Luku1) * float(Luku2) * float(Luku3)
 keski = float(Luku1) * float(Luku2) * float(Luku3) / 3
