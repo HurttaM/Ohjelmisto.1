@@ -4,7 +4,7 @@ print("""
 Moro
 tyyppä
 """)
-# \ on escape-markki
+# \ on escape-merkki
 
 # Syötteen lukeminen käyttäjältä
 command = "Tee jotain"
