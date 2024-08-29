@@ -5,6 +5,7 @@
 import math
 import random
 iterator = 0
+#kaikkien pisteiden määrää kysytään käyttäjältä
 N = input("Kuinka monta pistettä haluat testata?: ")
 N = int(N)
 #kaikki pisteet jos haluaa kokeilla ilman käyttäjä inputtia
