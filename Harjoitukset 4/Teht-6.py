@@ -7,7 +7,8 @@ import random
 iterator = 0
 N = input("Kuinka monta pistettä haluat testata?: ")
 N = int(N)
-#N = 10000000 #kaikki pisteet
+#kaikki pisteet jos haluaa kokeilla ilman käyttäjä inputtia
+#N = 10000000
 n = 0 #ympyrän sisälle osuvat pisteet
 while iterator < N:
     iterator += 1
