@@ -10,7 +10,7 @@ def lentoasema():
 
         elif teko == "syöttää":
             icao = input("Syötä aseman ICAO-koodi: ").strip().upper()
-            nimi = input("Syötä lentoaseman nimi: ").strip()
+            nimi = input("Syötä lentoaseman nimi: ").strip().upper()
             if icao in asemat:
                 print(f"Lentoasema {icao} on jo olemassa nimellä {asemat[icao]}.")
             else:
