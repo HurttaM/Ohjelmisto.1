@@ -2,7 +2,7 @@ def nimet():
     nimet_set = set()
 
     while True:
-        nimi = input("Anna nimi: ")
+        nimi = input("Anna nimi: ").upper()
         if nimi == "":
             break
 
