@@ -7,13 +7,12 @@ connection = mysql.connector.connect(host='localhost',
                                      autocommit=True)
 
 def lentoasema(koodi):
-    sql = f"SELECT name, iso_country FROM airport where ident = '{koodi}'"
+    type = f"SELECT type, COUNT(*) AS count FROM airport WHERE iso_country = '{koodi}' GROUP BY type;"
     cursor = connection.cursor()
-    cursor.execute(sql)
+    cursor.execute(type)
     result = cursor.fetchall()
-    for row in result:
-        print(f"Lentoaseman {row[0]} maakoodi on {row[1]}.")
+    return result
 
-
-icao = input("Syötä lentoaseman ICAO-koodi: ").strip().upper()
-lentoasema(icao)
+maa = input("Syötä lentoaseman maakoodi: ").strip().upper()
+lentoasema(maa)
+print(lentoasema(maa))
