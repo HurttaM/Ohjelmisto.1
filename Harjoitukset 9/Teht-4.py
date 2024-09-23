@@ -23,9 +23,9 @@ class Auto:
 
 
 def tulosta_autot(autot):
-    print(f"{'Rekisteri':<10}{'Huippunopeus (km/h)':<20}{'Nopeus (km/h)':<15}{'Kuljettu matka (km)':<20}")
+    print(f"{'Rekisteri':<12}{'Huippunopeus (km/h)':<22}{'Nopeus (km/h)':<16}{'Kuljettu matka (km)':<20}")
     for auto in autot:
-        print(f"{auto.rekisteritunnus:<10}{auto.huippunopeus:<20}{auto.hetki_nopeus:<15}{auto.kuljettu_matka:<20}")
+        print(f"{auto.rekisteritunnus:<12}{auto.huippunopeus:<22}{auto.hetki_nopeus:<16}{auto.kuljettu_matka:<20}")
 
 
 def kilpailu():
