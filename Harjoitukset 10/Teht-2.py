@@ -32,7 +32,7 @@ class Hissi:
 
 class Talo:
     def __init__(self, alin, ylin, luku):
-        self.hissit = [Hissi(alin, ylin) for _ in range(luku)]
+        self.hissit = [Hissi(alin, ylin) for i in range(luku)]
 
     def aja_hissia(self, hissi_numero, kohde_kerros):
         if hissi_numero < 0 or hissi_numero >= len(self.hissit):
