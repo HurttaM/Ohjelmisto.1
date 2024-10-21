@@ -1,5 +1,5 @@
 class Hissi:
-    def __init__(self, ylin, alin):
+    def __init__(self, alin, ylin):
         self.ylin = ylin
         self.alin = alin
         self.kerros = alin
@@ -30,6 +30,6 @@ class Hissi:
         while self.kerros > kohde_kerros:
             self.kerros_alas()
 
-hissi = Hissi(5, 0)
+hissi = Hissi(0, 5)
 hissi.siirry_kerrokseen(5)
 hissi.siirry_kerrokseen(0)
