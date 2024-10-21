@@ -1,7 +1,7 @@
 class Hissi:
     def __init__(self, alin, ylin):
-        self.ylin = ylin
         self.alin = alin
+        self.ylin = ylin
         self.kerros = alin
 
 
