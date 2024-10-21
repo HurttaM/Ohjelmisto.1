@@ -1,9 +1,8 @@
 class Hissi:
-    def __init__(self, ylin, alin):
+    def __init__(self, alin, ylin):
         self.ylin = ylin
         self.alin = alin
         self.kerros = alin
-
 
     def kerros_ylos(self):
         if self.kerros < self.ylin:
@@ -30,9 +29,10 @@ class Hissi:
         while self.kerros > kohde_kerros:
             self.kerros_alas()
 
+
 class Talo:
     def __init__(self, alin, ylin, luku):
-        self.hissit = [Hissi(alin, ylin) for i in range(luku)]
+        self.hissit = [Hissi(alin, ylin) for _ in range(luku)]
 
     def aja_hissia(self, hissi_numero, kohde_kerros):
         if hissi_numero < 0 or hissi_numero >= len(self.hissit):
@@ -43,6 +43,8 @@ class Talo:
         print(f"Ajetaan hissiä {hissi_numero} kerrokseen {kohde_kerros}.")
         hissi.siirry_kerrokseen(kohde_kerros)
 
+
+# Pääohjelma
 talo = Talo(0, 10, 3)
 talo.aja_hissia(0, 5)
 talo.aja_hissia(1, 8)
