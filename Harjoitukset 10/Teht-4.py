@@ -1,7 +1,6 @@
 import random
 
 
-# Auto-luokka aiemmasta tehtävästä
 class Auto:
     def __init__(self, rekisteritunnus, huippunopeus):
         self.rekisteritunnus = rekisteritunnus
@@ -23,7 +22,6 @@ class Auto:
         self.kuljettu_matka += kuljettu
 
 
-# Kilpailu-luokka
 class Kilpailu:
     def __init__(self, nimi, pituus, autot):
         self.nimi = nimi
@@ -48,7 +46,6 @@ class Kilpailu:
         return False
 
 
-# Pääohjelma
 def paohjelma():
     autot = []
     for i in range(1, 11):
