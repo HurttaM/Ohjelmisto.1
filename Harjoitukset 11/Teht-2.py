@@ -47,7 +47,6 @@ def paohjelma():
     polttomoottoriauto.kulje(3)
 
     print(f"Sähköauton ({sähköauto.rekisteritunnus}) kuljettu matka: {sähköauto.kuljettu_matka} km")
-    print(
-        f"Polttomoottoriauton ({polttomoottoriauto.rekisteritunnus}) kuljettu matka: {polttomoottoriauto.kuljettu_matka} km")
+    print(f"Polttomoottoriauton ({polttomoottoriauto.rekisteritunnus}) kuljettu matka: {polttomoottoriauto.kuljettu_matka} km")
 
 paohjelma()
