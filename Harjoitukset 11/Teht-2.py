@@ -38,10 +38,8 @@ def paohjelma():
     sähköauto = Sähköauto("ABC-15", 180, 52.5)
     polttomoottoriauto = Polttomoottoriauto("ACD-123", 165, 32.3)
 
-    # Asetetaan autojen nopeudet
     sähköauto.kiihdyta(120)
     polttomoottoriauto.kiihdyta(100)
-
 
     sähköauto.kulje(3)
     polttomoottoriauto.kulje(3)
