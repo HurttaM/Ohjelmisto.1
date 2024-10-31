@@ -8,7 +8,7 @@ def hae_saa(paikka):
     try:
         vastaus = requests.get(url).json()
 
-    except:
+    except requests.exceptions.RequestException as e:
         print("Virhe. Verkko-ongelma")
 
     if vastaus.get("cod") != 200:
