@@ -15,7 +15,7 @@ def hae_saa(paikka):
     lampotila = vastaus["main"]["temp"]
 
 
-    print(f"Säätila: {saatila.capitalize()}")
+    print(f"Säätila: {saatila}")
     print(f"Lämpötila: {lampotila:.2f} °C")
 
 
