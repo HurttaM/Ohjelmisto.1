@@ -8,7 +8,7 @@ def hae_saa(paikka):
 
     if vastaus.get("cod") != 200:
         virhekoodi = vastaus.get("cod")
-        virheviesti = vastaus.get("message", "Tuntematon virhe")
+        virheviesti = vastaus.get("message")
         print(f"Virhe ({virhekoodi}): {virheviesti}. Yritä uudelleen.")
         return
 
