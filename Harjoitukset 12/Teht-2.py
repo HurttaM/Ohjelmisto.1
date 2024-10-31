@@ -3,7 +3,7 @@ import json
 
 def hae_saa(paikka):
 
-    url = f"http://api.openweathermap.org/data/2.5/weather?q={paikka}&units=metric&appid={'37922119c8b329ff65c9c70a23c7b3ae'}"
+    url = f"http://api.openweathermap.org/data/2.5/weather?q={paikka}&units=metric&appid={'mysupersecretkey'}"
 
     try:
         vastaus = requests.get(url).json()
