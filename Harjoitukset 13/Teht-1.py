@@ -22,5 +22,5 @@ def tarkista_alkuluku(luku):
     return jsonify(vastaus)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=3000)
+    app.run(use_reloader=True, port=3000)
 
